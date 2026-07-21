@@ -9,9 +9,9 @@ requirements = python3,kivy,pyTelegramBotAPI,certifi,urllib3,idna,charset-normal
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
-android.api = 31
+android.api = 30
 android.minapi = 21
-android.ndk = 25b
+android.ndk = 23b
 #android.sdk = 33
 p4a.branch = master
 
