@@ -28,8 +28,9 @@ jobs:
         pip install cython==0.29.36 buildozer
 
     - name: Build APK with Buildozer
+      env:
+        P4A_ACCEPT_SDK_LICENSE: 1
       run: |
-         export P4A_ACCEPT_SDK_LICENSE=1
         buildozer -v android debug
 
     - name: Upload APK artifact
